@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css">
+    <title>Forms</title>
+  </head>
+  <body>
+    <nav>
+      <p style="text-align: center;">This is a trial site</p>
+    </nav>
+
+    <main>
+    <h1>Forms demo</h1>
+
+    <form action="Trial_SIte.html">
+      <p>
+        <label for="Email">Email:</label>
+        <input id="email" type="email"required />
+      </p>
+      <p>
+        <label for="pass">Password</label>
+        <input id="pass" type="password" required/>
+      </p>
+      <input type="date" />
+      <button >submit</button>
+      <hr />
+    </form>
+    <h3>Hijacking Google search</h3>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" required/>
+      <button type="submit">search on gooogle</button>
+    </form>
+    <form action="">
+      <label for="Large">L</label>
+      <input type="radio" name="size" id="Large" value="large" />
+      <label for="Medium">M</label>
+      <input type="radio" name="size" id="Medium" value="Medium" />
+      <label for="Small">S</label>
+      <input type="radio" name="size" id="Small" value="small" />
+    </form>
+<div>
+    <select name="Category" id="Category">
+        <option value="horror">horror</option>
+        <option value="Romcom">Romcom</option>
+        <option value="Comedy">comedy</option>
+        <option value="Drama">drama</option>
+        <option value="Kids">Kids/option>
+            
+    </select>
+    <button type="submit">submit</button>
+    
+</div>
+
+<p>
+    <form action="">
+      <input type="checkbox" name="terms" id="terms" />
+      <label for="terms">
+        I have read and agree to the terms and conditions</label
+      >
+    </form>
+</p>
+</main>
+  </body>
+</html>
